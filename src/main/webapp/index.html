@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="he" ng-app="myApp" class="no-js">
+  <head>
+    <title>מדרש רבי רפאל</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Bootstrap -->
+     <link rel="stylesheet" href="app.css">
+     <link href="bower_components/bootstrap1/dist/css/bootstrap.min.css" rel="stylesheet">
+‪  	 <link href="components/navtree/abn_tree.css" rel="stylesheet"/>
+  
+   </head>
+  <body>
+		
+    <div class="mycontainer ">
+               
+                 <!-- My Nav Bar    ------------------------>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg"/></a>
+          </div>
+        
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse ">
+           		<ul class="nav navbar-nav navbar-right  "  id="menu_items">
+              <li class="active navbar-right"><a href="#/home">דף הבית</a></li>
+              <li class="navbar-right"><a href="#/about">אודות ר' רפאל</a></li>
+               <li class="navbar-right"> <a href="#/books">ספרים</a></li>
+               <li class="navbar-right"> <a href="#/maharil"> כתבי יד</a></li>
+
+		<!-- 		<li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Dropdown <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </li> -->
+					
+
+
+
+				<li class="navbar-right"><a href="#/contact">צרו קשר</a></li>
+              
+            </ul>
+            
+            <a href="#/register" class="btn btn-default navbar-btn  btn-inverse  navbar-left  btn-xs "  >הרשמה</a>
+          <a href="#/login" class="btn btn-default navbar-btn  navbar-left btn-xs btn-primary"  >כניסה</a>
+          </div><!-- /.navbar-collapse -->
+          
+        </nav> <!-- End of Nav Bar    ------------------------>
+    <br/>
+    <br/>
+    <br/>
+ 	<div ng-view lang="he"></div>
+ 	
+    
+    
+   
+                 
+          <footer>
+            <p>
+                <h5 class="pull-left">כל הזכויות שמורות לי 2013</h5>
+            </p>
+        </footer>      
+                
+     </div>
+       <script src="http://code.jquery.com/jquery.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bower_components/bootstrap1/dist/js/bootstrap.min.js"></script>     
+   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="app.js"></script>
+  <script src="books/books.js"></script>
+  <script src="login/login.js"></script>
+  <script src="home/home.js"></script>
+  <script src="about/about.js"></script>
+  <script src="maharil/maharil.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+  <script src="components/navtree/abn_tree_directive.js"></script>     
+  </body>
+</html>

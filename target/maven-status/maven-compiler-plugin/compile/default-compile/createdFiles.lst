@@ -1,0 +1,12 @@
+midrash\app\controllers\UserController$1.class
+midrash\config\root\AppSecurityConfig.class
+midrash\app\security\AjaxAuthenticationSuccessHandler.class
+midrash\config\servlet\ServletContextConfig.class
+midrash\app\obj\User.class
+midrash\app\controllers\SendMailTLS$1.class
+midrash\config\WebAppInitializer.class
+midrash\config\SecurityWebApplicationInitializer.class
+midrash\config\MailConfig.class
+midrash\config\root\RootContextConfig.class
+midrash\app\controllers\SendMailTLS.class
+midrash\app\controllers\UserController.class
