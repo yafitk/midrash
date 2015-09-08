@@ -1,0 +1,32 @@
+[
+    {
+        "price": 100, 
+        "id": "book1", 
+        "imageUrl": "img/aa.jpg", 
+        "name": "באר רואי", 
+        "snippet": " שאלות ותשובות",
+        "pdf" : "files/test.pdf"
+    },    
+    {
+        "price": 50, 
+        "id": "book2", 
+        "imageUrl": "img/bb.jpg", 
+        "name": "ספר החינוך", 
+        "snippet": "תולדות הישוב הישן"
+    }, 
+    {
+        "price": 70, 
+        "id": "book3", 
+        "imageUrl": "img/cc.jpg", 
+        "name": "ספר שלישי", 
+        "snippet": "חביב"
+    }, 
+    {
+        "price": 100, 
+        "id": "book4", 
+        "imageUrl": "img/dd.jpg", 
+        "name": "ספר רביעי ואחרון", 
+        "snippet": "משהו שלא רואים!!!!"
+    }
+ 
+]
