@@ -4,9 +4,11 @@
 angular.module('myApp', [
   'ngRoute',
   'ngResource',
+  'myApp.common',
   'myApp.login',
   'myApp.home',
   'myApp.books',
+ 
   'myApp.about',
   'myApp.maharil',
   'myApp.version'
